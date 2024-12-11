@@ -18,7 +18,7 @@ const Header = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
 
-  const titles = ["Photographer", "Freelancer", "Designer"];
+  const titles = ["Developer", "Freelancer", "Designer"];
   const deletingSpeed = 100;
   const pauseTime = 2000;
 
@@ -80,8 +80,8 @@ const Header = () => {
               style={{ backgroundImage: "url('/bgImage2.webp')" }}
             />
           </div>
-          <div className="absolute h-full w-full inset-12 flex flex-col justify-center px-8">
-            <h1 className="text-6xl font-bold text-gray-800 mb-4">
+          <div className="absolute h-full w-full inset-2 flex flex-col justify-center px-8">
+            <h1 className="text-7xl font-bold text-gray-800 mb-4">
               ANKITA SINGH
             </h1>
             <div className="flex items-center text-3xl">
