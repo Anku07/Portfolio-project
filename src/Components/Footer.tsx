@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className="w-full py-8 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center">
-          <h2 className="text-4xl font-bold text-gray-700 mb-4">Brandon Johnson</h2>
+          <h2 className="text-4xl font-bold text-gray-700 mb-4">Ankita Singh</h2>
           
           <p className="text-gray-600 italic mb-8">
-            Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consequatur voluptates perspiciatis ipsa temporibus assumenda id? Vero placeat assumenda nesciunt!
           </p>
           
        

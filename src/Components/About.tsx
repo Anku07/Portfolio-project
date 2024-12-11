@@ -25,9 +25,9 @@ const AboutSection = () => {
     birthday: "7 Nov 1996",
     website: "www.example.com",
     phone: "+123 456 7890",
-    city: "New York, USA",
+    city: "PratapGarh",
     age: "30",
-    degree: "Master",
+    degree: "Graduate",
     email: "as19961107@gmail.com",
     job: "Available",
   };
@@ -42,26 +42,26 @@ const AboutSection = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">About</h1>
+      <h1 className="text-4xl font-bold mb-2 text-center">About</h1>
+      <div className="flex justify-center items-center  mb-10">
+      <div className="h-0.5 w-28 bg-gray-300"></div>
+      </div>
 
       <div className="grid md:grid-cols-2 gap-8 items-start">
-        {/* Profile Image */}
         <div className="relative">
           <div className="aspect-auto relative">
             <img
-              src="/api/placeholder/400/800"
+              src="Ankitapic.jpeg"
               alt="Profile"
               className="rounded-lg object-cover w-full h-full"
             />
           </div>
         </div>
-        {/* Profile Details */}
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-gray-800">
             {profileData.title}
           </h2>
           <p className="text-gray-600 italic">{profileData.description}</p>
-          {/* Info Grid */}
           <div className="grid md:grid-cols-2 gap-x-8">
             <div>
               <InfoItem
@@ -96,7 +96,6 @@ const AboutSection = () => {
               />
             </div>
           </div>
-          {/* Additional Description */}
           <p className="text-gray-600 mt-6">
             Officiis eligendi itaque labore et dolorum mollitia officiis optio
             vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor

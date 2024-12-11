@@ -2,6 +2,7 @@ import AboutSection from "@/Components/About";
 import ContactPage from "@/Components/ContactPage";
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
+import Resume from "@/Components/Resume";
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     <div>
       <Header />
       <AboutSection />
+      <Resume />
       <ContactPage />
       <Footer />
     </div>

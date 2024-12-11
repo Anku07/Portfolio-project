@@ -74,7 +74,7 @@ const Header = () => {
 
       <main className="ml-16 overflow-hidden">
         <div className="relative">
-          <div className="h-[800px] w-full overflow-hidden sm:h-[500px] md:h-[400px] lg:h-[600px]">
+          <div className="h-[800px] w-full overflow-hidden sm:h-[500px] md:h-[400px] lg:h-[800px]">
             <div
               className="h-full w-full bg-cover bg-center opacity-50"
               style={{ backgroundImage: "url('/bgImage2.webp')" }}
