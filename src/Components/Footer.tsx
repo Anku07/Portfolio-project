@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="text-center">
           <h2 className="text-4xl font-bold text-gray-700 mb-4">Ankita Singh</h2>
           
-          <p className="text-gray-600 italic mb-8">
+          <p className="text-gray-600 italic mb-8 mx-40">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consequatur voluptates perspiciatis ipsa temporibus assumenda id? Vero placeat assumenda nesciunt!
           </p>
           
