@@ -41,7 +41,7 @@ const AboutSection = () => {
   );
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 py-8 ml-16">
       <h1 className="text-4xl font-bold mb-2 text-center">About</h1>
       <div className="flex justify-center items-center  mb-10">
       <div className="h-0.5 w-28 bg-gray-300"></div>

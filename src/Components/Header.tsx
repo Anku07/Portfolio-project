@@ -11,6 +11,7 @@ import {
   Github,
   Instagram,
 } from "lucide-react";
+import Link from "next/link";
 
 const Header = () => {
   const [text, setText] = useState("");

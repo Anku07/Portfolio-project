@@ -3,7 +3,7 @@ import { Twitter, Facebook, Instagram, Camera, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="w-full py-8 bg-gray-100">
+    <footer className="w-full py-8 bg-gray-100 ml-16">
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h2 className="text-4xl font-bold text-gray-700 mb-4">Ankita Singh</h2>

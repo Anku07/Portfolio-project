@@ -23,7 +23,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-16 py-8 inset-5 bg--100">
+    <div className="max-w-6xl mx-auto px-16 py-8 inset-5 bg--100 ml-16">
       <h1 className="text-4xl font-bold text-gray-800 mb-2">Contact</h1>
       <div className="h-1 w-16 bg-blue-500 mb-6"></div>
       
